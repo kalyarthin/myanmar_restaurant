@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *{
     padding: 0;
@@ -10,6 +11,13 @@
     font-size: 1.1rem;
   color: rgba(25, 23, 19, 0.863);
 }
+html{
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+h1,p,a,h2,h3{
+    font-family: "PT Serif", serif;
+}
 /* header section start  */
 header{
     width: 100%;
@@ -19,8 +27,8 @@ header{
     background-position:50% 50%;
     padding-top: 25px;
 }
-/* header section end  */
-/* nav bar  */
+
+/* nav bar start */
 nav {
     width: 80%;
     height: 80px;
@@ -35,7 +43,7 @@ nav {
     padding: 0 40px;
     color: rgb(227, 158, 68);
 }
-/* nav item  */
+/* nav item end */
 .nav-items {
     display: flex;
     align-items: center;
@@ -59,11 +67,7 @@ nav {
      padding-left: 45px;
      gap: 18px;
 }
-/* menu btn  */
-.menu-btn {
-    display: none;
-   
-}
+
 .btn-groups{
     margin-top: 15px;
 
@@ -81,8 +85,85 @@ nav {
     transition: 0.3s;
     border: none;
     outline: none;
-  
+}
+
+   .icon-image{
+    margin-top: 10px;
+   }
+   /* menu btn  */
+   .menu-btn {
+       display: none;
+
+   }
+   /* header section end  */
+   .title{
+    text-align: center;
+   }
+/* about section start  */
+   section{
    
+    box-shadow: 4px 4px  4px rgb(229, 216, 193);
+    margin-top: 100px;
+    padding-left: 100px;
+       
+   }
+   .about-section{
+    min-height: 60vh;
+
+    display: flex;
+
+   }
+   .about-content,.about-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 
-}
+   }
+   h2{
+    font-size: 1.5rem;
+   }
+   .about-content{
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px;
+   }
+   /* about end  */
+   /* menu start  */
+   .menurestaurant-section{
+    min-height: 120vh;
+    display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      
+   }
+   .menu-section{
+   
+    display: flex;
+        margin-bottom: 35px;
+           
+
+
+
+    
+    
+   }
+   .flex-1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .flex-2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+   }
+   /* menu end  */
+   

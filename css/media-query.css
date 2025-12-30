@@ -1,4 +1,5 @@
 @media (max-width:600px){
+    /* header start  */
     .menu-btn{
         display: block;
         cursor: pointer;
@@ -38,4 +39,27 @@
         margin-top: 20px;
         
     }
+    /* header end  */
+    section{
+        padding: 20px;
+      margin-top: 20px;
+    }
+    /* about start  */
+    .title{
+        margin-top: 20px;
+    }
+  .about-section{
+        flex-direction: column-reverse;
+    }
+    .about-image{
+        margin-bottom: 20px;
+    }
+    /* about end  */
+    /* menu start  */
+    .menu-section{
+        flex-direction: column;
+gap: 20px;
+margin-top: 25px;
+    }
+    /* menu end */
 }
