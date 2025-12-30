@@ -99,18 +99,22 @@ nav {
    .title{
     text-align: center;
         padding: 50px;
+    
    }
 /* about section start  */
    section{
    
     box-shadow: 4px 4px  4px rgb(229, 216, 193);
+    width: 100%;
+        min-height: 50vh;
+
     /* margin-top: 100px; */
         /* padding: 100px; */
     
        
    }
    .about-section{
-
+background: white;
     min-height: 60vh;
 
     display: flex;
@@ -136,7 +140,7 @@ nav {
    /* about end  */
    /* menu start  */
    .menurestaurant-section{
-    min-height: 120vh;
+    /* min-height: 120vh; */
     display: flex;
         gap: 50px;
         justify-content: center;
@@ -167,8 +171,8 @@ nav {
    /* menu end  */
    /* testimonials start  */
    .testi-img{
-width: 100%;
-    min-height: 70vh;
+
+   
     background: linear-gradient(90deg, rgb(246, 209, 141), rgba(45, 43, 39, 0.315)), url("../photos/pizza.jpg");
     background-size: cover;
     background-position: center;
@@ -187,8 +191,78 @@ display: flex;
     justify-content: center;
         align-items: center;
         flex-direction: column;
-     padding: 0 50px;
+     padding: 50px;
    gap: 20px;
    }
    /* testimonials end  */
+   /* contact start  */
+  .contact{
+    min-height: 120vh;
+    background: rgb(215, 197, 163);
+   padding: 30px 80px; 
+  }
+   .contact-container{
+
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    
+ 
+  
+    
+  
+   }
+   .contact-section{
+    padding-left: 100px;
+   }
+
+
+  
+   .contact-form{
+    width: 50%;
+    height: 100%;
+   }
+   .contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+   }
+   form{
+       width: 300px;
+    height: 200px;
+    /* background: rgba(190, 167, 122, 0.361);    */
+    box-shadow: 0 0 8px rgba(230, 213, 182, 0.313);
+    }
+    form h3{
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    input,textarea{
+        width: 100%;
+        border-radius: 20px;
+       padding: 10px 20px;
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+        background: rgba(81, 70, 50, 0.377);
+        
+    }
+    input::placeholder{
+           color: rgba(24, 23, 21, 0.836);
+    }
+         button[type="submit"]{
+           background: rgba(105, 91, 64, 0.598);
+    color: rgba(26, 25, 23, 0.817);
+           border: none;
+           outline: none;
+           padding: 10px 20px;
+           border-radius: 20px;
+         }        
+    
    
+   
+   /* contact end  */
