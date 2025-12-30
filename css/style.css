@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 1.1rem;
+  color: rgba(25, 23, 19, 0.863);
+}
+/* header section start  */
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg,rgba(221, 201, 150, 0.909),rgba(43, 42, 42, 0.11)),url("../photos/banner.jpg");
+    background-size: cover;
+    background-position:50% 50%;
+    padding-top: 25px;
+}
+/* header section end  */
+/* nav bar  */
+nav {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    background: rgb(248, 224, 192);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 0 40px;
+    color: rgb(227, 158, 68);
+}
+/* nav item  */
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+/* logo start  */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-content{
+    width: 45%;
+    min-height: 50vh;
+     border: none;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding-left: 45px;
+     gap: 18px;
+}
