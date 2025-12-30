@@ -98,16 +98,19 @@ nav {
    /* header section end  */
    .title{
     text-align: center;
+        padding: 50px;
    }
 /* about section start  */
    section{
    
     box-shadow: 4px 4px  4px rgb(229, 216, 193);
-    margin-top: 100px;
-    padding-left: 100px;
+    /* margin-top: 100px; */
+        /* padding: 100px; */
+    
        
    }
    .about-section{
+
     min-height: 60vh;
 
     display: flex;
@@ -147,12 +150,7 @@ nav {
     display: flex;
         margin-bottom: 35px;
            
-
-
-
-    
-    
-   }
+ }
    .flex-1{
     flex: 1;
     display: flex;
@@ -162,8 +160,35 @@ nav {
    .flex-2{
     flex: 2;
     display: flex;
+    padding: 0 40px;
     flex-direction: column;
    gap: 20px;
    }
    /* menu end  */
+   /* testimonials start  */
+   .testi-img{
+width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(90deg, rgb(246, 209, 141), rgba(45, 43, 39, 0.315)), url("../photos/pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   }
+   .testimonials-section{
+
+display: flex;
+  
+   
+   }
+ 
+  .testimonials-content,.testimonials-photo{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     padding: 0 50px;
+   gap: 20px;
+   }
+   /* testimonials end  */
    
