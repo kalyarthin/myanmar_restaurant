@@ -70,14 +70,13 @@ margin-top: 25px;
     }
  
     .testimonials-section{
-        flex-direction: column-reverse;
-        gap: 20px;
-        padding-right:  10px;
-        
-       
-          
-    
-    }
+        flex-direction: column;
+     
+ 
+     }
+
+  
+   
     /* testimonials end  */
     /* contact start  */
     .contact{

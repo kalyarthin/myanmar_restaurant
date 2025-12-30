@@ -179,14 +179,16 @@ background: white;
     background-attachment: fixed;
    }
    .testimonials-section{
-
+min-height: 50vh;
 display: flex;
+
   
    
    }
  
   .testimonials-content,.testimonials-photo{
     flex: 1;
+
     display: flex;
     justify-content: center;
         align-items: center;
@@ -194,6 +196,7 @@ display: flex;
      padding: 50px;
    gap: 20px;
    }
+
    /* testimonials end  */
    /* contact start  */
   .contact{
