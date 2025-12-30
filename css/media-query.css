@@ -1,0 +1,41 @@
+@media (max-width:600px){
+    .menu-btn{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-items{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background:rgba(31, 30, 30, 0.224);
+        padding: 30px;
+        flex-direction: column;
+        border-radius: 30px;
+        /* display: none; */
+        margin-top: 10px;
+        transform: scale(0);
+        transition: 0.5s;
+        /* transform: scale(0); */
+        /* transform-origin: top left; */
+        /* transform: translateY(-150%); */
+        transform: translateX(-120%);
+    }
+    .show{
+        /* display: block; */
+        /* transform: scale(1); */
+        transform: translate(0);
+         background: rgba(248, 176, 43, 0.687);
+         color: black;
+         font-weight: bold;
+    }
+    .banner-content{
+        width: 100%;
+        background: rgba(232, 155, 60, 0.299);
+        padding-left: 40px;
+        border-radius: 20px;
+        margin-top: 20px;
+        
+    }
+}

@@ -59,3 +59,30 @@ nav {
      padding-left: 45px;
      gap: 18px;
 }
+/* menu btn  */
+.menu-btn {
+    display: none;
+   
+}
+.btn-groups{
+    margin-top: 15px;
+
+    /* margin-bottom: 20px; */
+}
+
+.btn{
+    
+    padding: 8px 15px;
+    background: rgb(209, 155, 55);
+    border-radius: 20px;
+    /* font-weight: 500; */
+    font-size: 1rem;
+    color: rgb(44, 38, 27);
+    transition: 0.3s;
+    border: none;
+    outline: none;
+  
+   
+    
+
+}
