@@ -46,15 +46,7 @@
         padding-left: 50px;
       
     }
-    /* header end  */
-    /* section{ */
-        /* padding: 20px;
-      margin-top: 20px; */
-    /* } */
-    /* about start  */
-    /* .title{ */
-        /* margin-top: 20px; */
-    /* } */
+
     section{
         padding: 50px 0;
     }
@@ -85,17 +77,20 @@
    
     /* testimonials end  */
     /* contact start  */
-    .contact{
-        min-height: 180vh;
-    }
-    .contact-container{
-     padding-left: 10px;
-      min-height: 100vh;
-        grid-template-columns:1fr;
-    }
-    .contact-form{
-        margin-bottom: 200px;
-        
-    }
+        .contact-container{
+            grid-template-columns: 1fr;
+            padding: 20px;
+            gap: 20px;
+        }
+
     /* contact end  */
+    /* footer start  */
+         .footer-content {
+    
+            
+             grid-template-columns:1fr;
+             padding: 20px;
+         }
+
+    /* footer end  */
 }
