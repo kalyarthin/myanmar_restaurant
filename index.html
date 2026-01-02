@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myanmar Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@hellouxpavel/cssanimation@latest/dist/cssanimation.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@hellouxpavel/cssanimation@latest/dist/cssanimation-utility.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./icon/logo.svg" type="image/x-icon" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -55,26 +64,29 @@
           <img src="./icon/s3.svg" alt="" width="25" />
         </div>
 
-        <h1>
-          Myanamr Restaurant <img src="./icon/s7.svg" alt="" width="25" />
-        </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          <br />Cupiditate nemo praesentium eaque, corrupti iste ea, saepe neque
-          est <br />vel omnis laborum hic ratione, dolorum sint at optio non
-          eligendi pariatur.
-        </p>
-        <div class="btn-groups">
-          <a href="#" class="btn">Order Now</a>
-          <span>&nbsp;</span>
-          <a href="#" class="btn">Contact Us</a>
-        </div>
-        <div>
-          <img src="./icon/s4.svg" alt="" width="25" />
-          <img src="./icon/s5.svg" alt="" width="25" />
-          <span>&nbsp;&nbsp;</span>
-          <img src="./icon/s6.svg" alt="" width="25" />
-          <img src="./icon/s8.svg" alt="" width="25" />
+        <div data-aos="fade-right" data-aos-duration="1000">
+          <h1 class="ca__fx-clipDiagonalSliceIn ca__u-loopForever">
+            Myanamr Restaurant <img src="./icon/s7.svg" alt="" width="25" />
+          </h1>
+
+          <p class="cssanimation ca__fx-bounceInLeft ca__u-loopForever">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            <br />Cupiditate nemo praesentium eaque, corrupti iste ea, saepe
+            neque est <br />vel omnis laborum hic ratione, dolorum sint at optio
+            non eligendi pariatur.
+          </p>
+          <div class="btn-groups">
+            <a href="#" class="btn">Order Now</a>
+            <span>&nbsp;</span>
+            <a href="#" class="btn">Contact Us</a>
+          </div>
+          <div>
+            <img src="./icon/s4.svg" alt="" width="25" />
+            <img src="./icon/s5.svg" alt="" width="25" />
+            <span>&nbsp;&nbsp;</span>
+            <img src="./icon/s6.svg" alt="" width="25" />
+            <img src="./icon/s8.svg" alt="" width="25" />
+          </div>
         </div>
       </div>
       <!-- banner content end  -->
@@ -82,7 +94,7 @@
     <!-- header section end -->
     <!-- main section start  -->
     <main>
-      <section id="about">
+      <section id="about" data-aos="zoom-out-right" data-aos-duration="3000">
         <h2 class="title">About Us</h2>
         <div class="about-section">
           <div class="about-content">
@@ -102,7 +114,12 @@
       <section id="menu">
         <h2 class="title">Menu</h2>
 
-        <div class="menu-section">
+        <div
+          class="menu-section"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div class="menu-content flex-2">
             <h3>Restaurant</h3>
             <p>
@@ -118,7 +135,7 @@
             <img src="./photos/m5.png" width="200" />
           </div>
         </div>
-        <div class="menu-section">
+        <div class="menu-section" data-aos="fade-up" data-aos-duration="3000">
           <div class="menu-image flex-1">
             <img src="./photos/m7.png" width="200" />
           </div>
@@ -134,7 +151,12 @@
             <img src="./photos/m1.png" width="200" />
           </div>
         </div>
-        <div class="menu-section">
+        <div
+          class="menu-section"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <div class="menu-image flex-1">
             <img src="./photos/m5.png" width="200" />
           </div>
@@ -152,7 +174,12 @@
           </div>
         </div>
       </section>
-      <section id="testimonials" class="testimonials">
+      <section
+        id="testimonials"
+        class="testimonials"
+        data-aos="fade-up-left"
+        data-aos-duration="800"
+      >
         <h2 class="title">Testimonials</h2>
         <div class="testimonials-section">
           <div class="testimonials-content">
@@ -171,7 +198,14 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="contactsection">
+      <section
+        id="contact"
+        class="contactsection"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1000"
+      >
         <h2 class="title">Contact Us</h2>
         <div class="contact-container">
           <div class="contact-section">
@@ -212,7 +246,7 @@
           </div>
         </div>
       </section>
-      <section id="footer">
+      <section id="footer" data-aos="zoom-out-down" data-aos-duration="1000">
         <div class="footer-content">
           <div class="contact-company">
             <h3>Restaurant</h3>
@@ -256,5 +290,9 @@
     <footer></footer>
     <!-- footer section end -->
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
